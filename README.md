@@ -63,6 +63,13 @@ Agrispray/
 │   ├── Spraying Nozzle.STEP           # Spray nozzle assembly
 │   └── vibration-damper.STEP          # Vibration isolation component
 │
+├── Renders/                           # 3D Renderings & Visualizations
+│   ├── preview.JPG                    # Complete hexacopter 3D render
+│   ├── Assembly.JPG                   # Full assembly view
+│   ├── Legs.JPG                       # Landing gear assembly render
+│   ├── Propeller.JPG                  # Propeller design visualization
+│   └── Spraying Nozlles.JPG           # Spray nozzle assembly render
+│
 ├── Classifier_model/                  # YOLO Detection System
 │   ├── app.py                         # Streamlit detection interface
 │   ├── yolov11.ipynb                  # Training & evaluation notebook
@@ -98,7 +105,38 @@ Agrispray/
 
 ---
 
-## ⚙️ **System Architecture**
+## 🎨 **3D Design & Renders**
+
+Agrispray features a fully modular hexacopter design with detailed CAD models and professional 3D renderings. All components are optimized for lightweight construction, ease of assembly, and spray system integration.
+
+### **Design Highlights**
+- **Modular Architecture**: All components designed as separate STEP files for easy manufacturing and replacement
+- **Carbon Fiber Integration**: Lightweight arms and structural elements for extended flight time
+- **Vibration Isolation**: Dedicated dampening components minimize sensor noise
+- **Integrated Spray System**: Nozzle assembly seamlessly integrated into frame
+- **Collapsible Landing Gear**: Space-efficient design with pivot joints for compact storage
+
+### **Visual Gallery**
+
+| Render | Description |
+|--------|-------------|
+| **preview.JPG** | Complete hexacopter 3D visualization showing all major components and final assembly |
+| **Assembly.JPG** | Full assembly view highlighting component integration and structural design |
+| **Legs.JPG** | Landing gear assembly with collapsible leg mechanism and vibration dampeners |
+| **Propeller.JPG** | Propeller design and motor mount configuration for optimal thrust distribution |
+| **Spraying Nozlles.JPG** | Spray nozzle assembly and pump integration for precision spray delivery |
+
+### **Key Design Features**
+- **Main Frame**: Carbon fiber construction with modular joint design
+- **Arm System**: Hollow carbon fiber tubes with integrated motor mounts
+- **Landing Gear**: Collapsible design with spring-loaded mechanisms for impact absorption
+- **Camera Mount**: Anti-vibration bracket for Aeronaut carbon fiber camera system
+- **Spray System**: Integrated nozzle assembly with optimized flow patterns
+- **Battery Support**: Secure LiPo battery mounting with CG optimization
+
+All CAD files are in industry-standard STEP format for compatibility with CAD software (FreeCAD, SolidWorks, Fusion 360, etc.).
+
+---
 
 ### **Detection Pipeline**
 ```
