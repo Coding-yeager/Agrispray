@@ -708,28 +708,10 @@ python -c "import cv2; cap = cv2.VideoCapture(0); print('Camera OK' if cap.read(
 
 ---
 
-## 📝 **License**
 
-This project is released under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license.
+## 👤 **Author**
 
-**You are free to:**
-- Share, copy, and redistribute the material
-- Adapt, remix, and build upon the material
-
-**Under these conditions:**
-- **Attribution** – Give appropriate credit to the original authors
-- **ShareAlike** – Any derivative works must use the same license
-
-See the full license in [LICENSE](LICENSE).
-
----
-
-## 👥 **Contributors**
-
-**Author: Nikhil**
-
-- [Nikhil](https://github.com/Nikhil) – YOLOv11 Model, Detection System & Training
-- [Nikhil](https://github.com/Nikhil) – ArUco Localization, Trilateration & ESP32 Integration
+- **Nikhil**
 
 ---
 
