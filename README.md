@@ -6,7 +6,7 @@
 ![ESP32](https://img.shields.io/badge/ESP32-Arduino-red)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.8-blueviolet)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B)
-
+ 
 **Author: Nikhil**
 
 Agrispray is an autonomous agricultural spraying hexacopter that combines **YOLOv11 plant/disease detection**, **ArUco-based GPS-free localization**, and **ESP32 variable-rate spray control** for precision pesticide delivery. This advanced system reduces chemical usage by up to 40% while maximizing accuracy in modern precision agriculture through intelligent confidence-based spraying.
